@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="in-text">
+  <info>
+    <id>1</id>
+    <title>Citation-only</title>
+    <author>
+      <name>Ivo Jimenez</name>
+    </author>
+    <category citation-format="numeric"/>
+    <category citation-format="author-date"/>
+    <category citation-format="label"/>
+    <updated>2011-12-24T17:15:37+01:00</updated>
+  </info>
+  <citation>
+    <layout>
+          <text display="block" variable="title" prefix="" suffix=". "/>
+          <text display="block" variable="container-title" prefix="" suffix=", " font-style="italic"/>
+          <date variable="issued" prefix="" suffix=". ">
+            <date-part name="year" form="long" prefix="" suffix=""/>
+          </date>
+          <names display="block" variable="author" prefix="" suffix=" ">
+            <name and="text" delimiter="; " form="long"/>
+          </names>
+    </layout>
+  </citation>
+  <bibliography>
+    <layout>
+          <text display="block" variable="title" prefix="" suffix=". "/>
+          <text display="block" variable="container-title" prefix="" suffix=", " font-style="italic"/>
+          <date variable="issued" prefix="" suffix=". ">
+            <date-part name="year" form="long" prefix="" suffix=""/>
+          </date>
+          <names display="block" variable="author" prefix="" suffix=" ">
+            <name and="text" delimiter="; " form="long"/>
+          </names>
+    </layout>
+  </bibliography>
+</style>
+<!-- CSL generated in 0.004 seconds -->

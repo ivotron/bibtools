@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only">
+   <info>
+      <title>IEEE-w-url</title>
+      <id>http://www.zotero.org/styles/ieee-w-url</id>
+      <link href="http://www.zotero.org/styles/ieee-w-url" rel="self"/>
+      <author>
+         <name>Michael Berkowitz</name>
+         <email>mberkowi@gmu.edu</email>
+      </author>
+      <contributor>
+         <name>Julian Onions</name>
+         <email>julian.onions@gmail.com</email>
+      </contributor>
+      <contributor>
+         <name>Rintze Zelle</name>
+         <uri>http://twitter.com/rintzezelle</uri>
+      </contributor>
+      <contributor>
+         <name>Ivo Jimenez</name>
+         <uri>http://cs.ucsc.edu/~ivo</uri>
+         <email>ivo.jimenez@gmail.com</email>
+      </contributor>
+      <category field="engineering"/>
+      <category field="generic-base"/>
+      <category citation-format="numeric"/>
+      <updated>2009-11-19T11:34:34+00:00</updated>
+      <link href="http://www.ieee.org/portal/cms_docs_iportals/iportals/publications/authors/transjnl/stylemanual.pdf" rel="documentation"/>
+   </info>
+   <macro name="author">
+      <names variable="author">
+         <name initialize-with="." delimiter=", " and="text"/>
+         <label form="short" prefix=", " text-case="lowercase" suffix="." strip-periods="true"/>
+         <substitute>
+            <names variable="editor"/>
+            <names variable="translator"/>
+         </substitute>
+      </names>
+   </macro>
+   <macro name="editor">
+      <names variable="editor">
+         <name initialize-with="." delimiter=", " and="text"/>
+         <label form="short" prefix=", " text-case="lowercase" suffix="." strip-periods="true"/>
+      </names>
+   </macro>
+   <macro name="title">
+      <choose>
+         <if type="bill book graphic legal_case motion_picture report song" match="any">
+            <text variable="title" font-style="italic"/>
+         </if>
+         <else>
+            <text variable="title" quotes="true"/>
+         </else>
+      </choose>
+   </macro>
+   <macro name="http">
+      <text variable="URL" prefix="" suffix="" />
+   </macro>
+   <citation et-al-min="3" et-al-use-first="1" collapse="citation-number">
+      <sort>
+         <key variable="citation-number"/>
+      </sort>
+      <layout prefix="[" suffix="]" delimiter=",">
+         <text variable="citation-number"/>
+      </layout>
+   </citation>
+   <bibliography entry-spacing="0" second-field-align="flush">
+      <layout suffix=".">
+         <text variable="citation-number" prefix="[" suffix="]: "/>
+         <text macro="author" suffix=", "/>
+	 <text macro="title"  suffix=". "/>
+         <text macro="http" />
+      </layout>
+   </bibliography>
+</style>
