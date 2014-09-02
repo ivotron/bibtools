@@ -1,14 +1,11 @@
 {
 	"translatorID": "9cb70025-a888-4a29-a210-dddddddddddd",
-	"translatorType": 3,
-	"label": "BibTeX",
+	"label": "BibTeX_ivotron",
 	"creator": "Simon Kornblith, Richard Karnesky and Emiliano heyns",
 	"target": "bib",
 	"minVersion": "2.1.9",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 200,
-	"inRepository": true,
-	"browserSupport": "gcsv",
 	"configOptions": {
 		"getCollections": true
 	},
@@ -18,7 +15,10 @@
 		"exportFileData": false,
 		"useJournalAbbreviation": false
 	},
-	"lastUpdated": "2014-06-24 00:00:00"
+	"inRepository": true,
+	"translatorType": 3,
+	"browserSupport": "gcsv",
+	"lastUpdated": "2014-08-22 20:37:22"
 }
 
 function detectImport() {
@@ -358,10 +358,9 @@ function processField(item, field, value, rawValue) {
 			}
 		}
 	
-	} 
+/*	} 
 	//accept lastchecked or urldate for access date. These should never both occur. 
 	//If they do we don't know which is better so we might as well just take the second one
-/*
 	else if (field == "lastchecked"|| field == "urldate"){
 		item.accessDate = value;
 	} else if(field == "keywords" || field == "keyword") {
@@ -1226,6 +1225,7 @@ function doExport() {
 			}
 		}
 		
+/*
 		if(item.extra) {
 			// Export identifiers
 			var extraFields = parseExtraFields(item.extra);
@@ -1240,7 +1240,7 @@ function doExport() {
 				}
 			}
 			var extra = extraFieldsToString(extraFields); // Make sure we join exactly with what we split
-			//if(extra) writeField("note", extra);
+			if(extra) writeField("note", extra);
 		}
 		
 		if(item.tags && item.tags.length) {
@@ -1249,8 +1249,9 @@ function doExport() {
 				var tag = item.tags[i];
 				tagString += ", "+tag.tag;
 			}
-			//writeField("keywords", tagString.substr(2));
+			writeField("keywords", tagString.substr(2));
 		}
+*/
 		
 		if(item.pages) {
 			writeField("pages", item.pages.replace("-","--"));
@@ -1274,7 +1275,6 @@ function doExport() {
 				writeField("annote", Zotero.Utilities.unescapeHTML(note["note"]));
 			}
 		}		
-*/
 		
 		if(item.attachments) {
 			var attachmentString = "";
@@ -1293,12 +1293,11 @@ function doExport() {
 				}
 			}
 			
-/*
 			if(attachmentString) {
 				writeField("file", attachmentString.substr(1));
 			}
-*/
 		}
+*/
 		
 		Zotero.write("\n}");
 	}
