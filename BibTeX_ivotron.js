@@ -1125,6 +1125,7 @@ function doExport() {
 		
 		for(var field in fieldMap) {
 			if(field == "abstract") continue;
+                        if(field == "url" && item.itemType != "webpage") continue;
 			if(item[fieldMap[field]]) {
 				writeField(field, item[fieldMap[field]]);
 			}
