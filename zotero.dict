@@ -88,6 +88,7 @@ bertsimas_introduction_1997
 kleinberg_algorithm_2006
 stonebraker_design_1986
 arpaci-dusseau_operating_2012
+burns_efficient_1997
 loo_boon_thau_datalog_2010
 zhou_efficient_2013
 agrawal_distributed_1987
@@ -156,6 +157,7 @@ buck_scihadoop_2011
 lofstead_extending_2011
 koziol_milestone_2013
 escriva_kronos_2013
+hagen_efficient_2012
 barga_automatic_2008
 hoffart_yago2_2013
 wysocki_effective_2005
@@ -185,6 +187,7 @@ buck_sidr_2013
 _pjd/pjdfstest_????
 golumbic_algorithmic_2004
 gutierrez-nolasco_tailoring_2011
+machado_enabling_2008
 muller_commit_2010
 blanchette_c+_2004
 abiteboul_foundations_1994
@@ -467,6 +470,7 @@ schengili-roberts_core_2000
 kirsch_paxos_2008
 bailis_hat_2013
 andersen_fawn_2009
+artzi_recrash_2008
 jain_fundamentals_1989
 hueske_opening_2012
 leung_scalable_2007
@@ -498,6 +502,7 @@ vanderplas_squeezing_2013
 carey_organic_1987
 turcu_exploring_2013
 whang_separability_1981
+cohen_correlating_2004
 planthaber_earthdb_2012
 waterman_introduction_2012
 parr_definitive_2007
@@ -554,6 +559,7 @@ marchal_xml_1999
 ivanova_data_2012
 he_coordinating_????
 codd_relational_1970
+muniswamy-reddy_layering_2009
 futrelle_tracking_2008
 alizadeh_deconstructing_2012
 kale_charm+_1996
@@ -795,6 +801,7 @@ hsiao_chained_1990
 hahsler_visualizing_????
 graefe_data_1991
 mohan_aries/lhs_1993
+xu_detecting_2009
 kang_cloudle_2010
 tran_transactional_2010
 chandra_weakest_1996
@@ -841,6 +848,7 @@ sakr_survey_2011
 krishnamoorthy_heterogeneous_1999
 ouyang_beyond_2011
 elnaffar_template_2009
+muniswamy-reddy_provenance-aware_2006-1
 wikipedia_contributors_list_comprehension_2012
 borkar_hyracks_2011
 harizopoulos_performance_2006
@@ -1003,6 +1011,7 @@ haas_ripple_1999
 liu_hello_2013
 seibel_coders_2009
 loo_recent_2012
+lyle_trusted_2010
 voellmy_procera_2012
 lai_distributed_1984
 cohn_agile_2005
@@ -1048,6 +1057,7 @@ shvachko_hdfs_2010
 bell_learn_2007
 simmen_fundamental_1996
 stallings_operating_1997
+gehani_spade_2012
 sato_design_2012
 mitchell_machine_2003
 yue_storage_1975
@@ -1165,6 +1175,7 @@ skourtis_qbox_2012
 sreepathi_scorpio_????
 ioannidis_history_2003
 chirigati_reprozip_2013
+steinman_speedes_2003
 gorunescu_data_2011
 soong_fundamentals_2004
 sundararaman_membrane_2010
@@ -1192,6 +1203,7 @@ christian_autoadmin_2011
 stonebraker_case_1986
 baker_measurements_1991
 intel_corporation_milestone_2012-2
+aguilera_performance_2003
 agrawal_concurrency_1987
 liao_dynamical_2013
 powell_beginning_2005
@@ -1246,6 +1258,7 @@ agrawal_managing_2013
 kimura_optimizing_2011
 tay_locking_1985
 bernstein_principles_1998
+adams_maximizing_2009
 folk_overview_2011
 le_understanding_2012
 wikipedia_contributors_cloud_computing_2012
@@ -1277,6 +1290,7 @@ haifeng_zhao_hierarchical_2010
 mckusick_gfs_2010
 john_active_2008
 haskin_recovery_1988
+ajtai_compactly_2002
 krishnamurthy_systemt_2009
 stonebraker_end_2007
 eckel_thinking_2000
@@ -1299,6 +1313,7 @@ sen_comparison_2005
 haas_clio_2005
 armbrust_above_2009
 morales_distributed_2013
+mclarnon_introducing_2011
 haerder_principles_1983
 rao_making_2000
 beckmann_r-tree_1990
@@ -1479,6 +1494,7 @@ carey_distributed_1988
 oppenheim_discrete-time_1988
 gonzalez_powergraph_2012
 bitton_benchmarking_1983
+moreau_special_2008
 voellmy_nettle_2010
 nitzberg_collective_1997
 astrahan_system_1976
@@ -1582,6 +1598,7 @@ fowler_refactoring_2002
 schaffner_hybrid_2009
 vicknair_comparison_2010
 reddy_next_2005
+yuan_cost-effective_2010
 vishwanathan_fast_2004
 ross_introduction_2007
 ousterhout_case_2011
@@ -1666,6 +1683,7 @@ koziol_milestone_2013-11
 laddad_aspectj_2003
 burke_feed_2009
 palmer_analytic_2012
+chen_pinpoint_2002
 pesavento_fibonacci_1997
 chen_mpipp_2006
 jimenez_rnaip_2004
@@ -1699,6 +1717,7 @@ guides_how_2008
 ahmad_predicting_2011
 bellman_dynamic_2010
 lomet_access_1992
+cohen_capturing_2005
 gonzalez_google_2010-1
 hellerstein_automating_2009
 boncz_monetdb/xquery_2006
@@ -1719,6 +1738,7 @@ belhajjame_prov_2012
 yang_mapreduce_2012
 copeland_decomposition_1985
 bland_enabling_2012
+hosono_devops_2012
 russell_bent_online_2004
 reed_implementing_1983
 buntinas_scalable_2011
