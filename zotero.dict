@@ -161,6 +161,7 @@ hagen_efficient_2012
 barga_automatic_2008
 hoffart_yago2_2013
 wysocki_effective_2005
+bhardwaj_datahub_2014
 zhao_why_2012
 prost_mpi-io/gpfs_2001
 anton_elementary_1994
@@ -187,6 +188,7 @@ buck_sidr_2013
 _pjd/pjdfstest_????
 golumbic_algorithmic_2004
 gutierrez-nolasco_tailoring_2011
+stoyanovich_exploring_2010
 machado_enabling_2008
 muller_commit_2010
 blanchette_c_2004
@@ -326,6 +328,7 @@ wang_supporting_2013
 wikipedia_contributors_research_2012
 aboulnaga_deploying_2009
 hadzilacos_modular_1994
+collaboration_open_2012
 gantz_extracting_2011
 ghosh_file_1969
 stonebraker_one_2007
@@ -465,6 +468,7 @@ boncz_breaking_2008
 mitchell_using_2013
 wei_cloudtps_2012
 moh_timeline_2004
+king_introduction_2007
 wikipedia_contributors_dbm_2012
 dickens_high_2010
 schengili-roberts_core_2000
@@ -670,6 +674,7 @@ bland_evaluation_2012
 cohn_advanced_1980
 chung_containment_2012
 brantner_building_2008
+_about_????
 gookin_c_1994
 vossen_transactional_2002
 hintjens_zeromq_2013
@@ -686,6 +691,7 @@ agarwal_blink_2012
 rosen_discrete_1998
 sandberg_innovations_1985
 flouris_clotho_2004
+pampel_making_2013
 knuth_art_1969
 shahzad_survey_2013
 burstedde_extreme-scale_2010
@@ -844,6 +850,7 @@ weil_ceph_2007
 arnab_milestone_2013
 chaudhuri_autoadmin_1998
 lomet_transaction_2006
+klimeck_nanohub.org_2008
 aho_compilers_1985
 sakr_survey_2011
 krishnamoorthy_heterogeneous_1999
@@ -1034,6 +1041,7 @@ krishnamurthy_optimization_1986
 bierce_machines_1984
 huebsch_querying_2003
 borkar_inside_2012
+simmhan_survey_2005
 kuenning_analysis_1994
 wikipedia_contributors_radix_2008
 sehrish_conflict_2009
@@ -1073,6 +1081,7 @@ martin_clean_1969
 baumgartner_declarative_2001
 zhao_modeling_2014
 witten_data_2011
+gutmann_preserving_2009
 ropars_spbc_2013
 marinho_provmanager_2012
 dawes_oca/ocp_2002
@@ -1106,6 +1115,7 @@ stearley_investigating_2013
 tran_towards_2012
 stonebraker_interoperability_1998
 voneiken_amazons_2008
+altman_digital_2009
 nakayama_hash-partitioned_1988
 sgall_-line_1997
 abadi_integrating_2006
@@ -1183,6 +1193,7 @@ soong_fundamentals_2004
 sundararaman_membrane_2010
 ivens_home_2000
 schwan_lustre_2003
+roure_evolution_2010
 cantor_object-oriented_1998
 asanovic_view_2009
 _fastforward_????
@@ -1215,6 +1226,7 @@ liskov_viewstamped_2012
 agarwal_blinkdb_2012
 bau_causal_2011
 lofstead_six_2011
+collaboration_open_2012-1
 slonneger_formal_1995
 juszczak_improving_1994
 simitsis_qox-driven_2009
@@ -1232,6 +1244,7 @@ bauer_java_2007
 ghemawat_google_2003
 jones_comprehensive_2007
 richardson_programming_1987
+mates_crowdlabs_2011
 kratochvil_uml_2003
 balakrishnan_tango_2013
 aoki_how_1999
@@ -1575,6 +1588,7 @@ raz_dynamic_1995
 cheung_sloth_2014
 ahn_overcoming_2013
 kimura_coradd_2010
+starlinger_reuse_2012
 englert_benchmark_1990
 bu_scaling_2012
 bonachea_gasnet_2002
