@@ -4,13 +4,13 @@
 # so that `bibutils` can work nicely with them
 
 # remove colons (eg. jimenez_kaizen:_2012)
-sed -i -e's/@\(.*\){\(.*\):\(.*\)/@\1{\2\3/' $HOME/.zotero.bib
+sed --follow-symlinks -i -e's/@\(.*\){\(.*\):\(.*\)/@\1{\2\3/' $HOME/.zotero.bib
 
 # remove plus (eg. stroustrup_c++_1985)
-sed -i -e's/@\(.*\){\(.*\)+\(.*\)/@\1{\2\3/g' $HOME/.zotero.bib
+sed --follow-symlinks -i -e's/@\(.*\){\(.*\)+\(.*\)/@\1{\2\3/g' $HOME/.zotero.bib
 
 # remove asterix (eg. beckman_r*-tree_1986)
-sed -i -e's/@\(.*\){\(.*\)\*\(.*\)/@\1{\2\3/g' $HOME/.zotero.bib
+sed --follow-symlinks -i -e's/@\(.*\){\(.*\)\*\(.*\)/@\1{\2\3/g' $HOME/.zotero.bib
 
 # extract the keys and create a dictionary of keys for vim
 grep '@[a-z]*{.*,' $HOME/.zotero.bib | sed 's/@.*{\(.*\),/\1/g' > $HOME/.vim/zotero.dict
